@@ -57,7 +57,7 @@ export default function Memory() {
         <NLWLogo />
 
         <View className='flex-row gap-2'>
-          <TouchableOpacity className="h-10 w-10 items-center justify-center rounded-full bg-red-500">
+          <TouchableOpacity onPress={signOut} className="h-10 w-10 items-center justify-center rounded-full bg-red-500">
               <Icon name="log-out" size={16} color="#000" />
             </TouchableOpacity>
 

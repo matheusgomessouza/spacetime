@@ -4,6 +4,9 @@
     "slug": "mobile",
     "scheme": "spacetime",
     "version": "1.0.0",
+    "extra": {
+      "API_URL": "YOUR_IP_ADRESS"
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
