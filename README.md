@@ -30,7 +30,7 @@ Spacetime is a time capsule where the user can log in and add important events t
 - Clone the repository `git clone https://github.com/matheusgomessouza/spacetime.git`
 
 - Create a new OAuth app in Github: Settings > Developer Settings > New OAuth App
-![](oauth-app.jpg)
+![](oauth-app.png)
 
 There you should insert the **Authorization callback URL** that is YOUR_IP:PORT, after both OAuth are created we need to copy the Client ID and Client Secret,
 MOBILE: exp://YOUR_IP:19000
@@ -46,7 +46,7 @@ WEB: http://localhost:3000/api/auth/callback
 
 - Start the backend located on `\server` with `npm run dev`
 - Start the frontend located on `\web` folder and run `npm run dev`
-- Or start the mobile located `\mobile` folder and run `npm run start` ( you can use ![Expo Go - App Store](https://apps.apple.com/br/app/expo-go/id982107779) / ![Expo Go - Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR) and run in your mobile device, or use Android / IOS emulator )
+- Or start the mobile located `\mobile` folder and run `npm run start` ( you can use ![Expo Go ](https://expo.dev/client) and run in your mobile device, or use Android / IOS emulator )
 
 OBS: Use `npx expo start --clear` if you need to run with cleared cache.
 
