@@ -29,7 +29,7 @@ Spacetime is a time capsule where the user can log in and add important events t
 
 - Clone the repository `git clone https://github.com/matheusgomessouza/spacetime.git`
 
-- Create a new OAuth app in Github: Settings > Developer Settings > New OAuth App </br>
+- Create a new OAuth app in Github: Settings > Developer Settings > New OAuth App </br></br>
 ![](oauth-app.png)
 
 There you should insert the **Authorization callback URL** that is YOUR_IP:PORT, after both OAuth are created we need to copy the Client ID and Client Secret,
