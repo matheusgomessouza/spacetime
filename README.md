@@ -32,9 +32,9 @@ Spacetime is a time capsule where the user can log in and add important events t
 - Create a new OAuth app in Github: Settings > Developer Settings > New OAuth App </br></br>
 ![](oauth-app.png)
 
-There you should insert the **Authorization callback URL** that is YOUR_IP:PORT, after both OAuth are created we need to copy the Client ID and Client Secret,
-MOBILE: exp://YOUR_IP:19000 </br>
-WEB: http://localhost:3000/api/auth/callback </br>
+There you should insert the **Authorization callback URL** that is YOUR_IP:PORT, after both OAuth are created we need to copy the Client ID and Client Secret </br></br>
+MOBILE: `exp://YOUR_IP:19000` </br>
+WEB: `http://localhost:3000/api/auth/callback` </br>
 
 - Create an `.env` file on the root of `server` folder, and paste the Client ID and Client Secret from both OAuth apps and, the `DATABASE_URL="file:./dev.db"` ( you will have to comment one of the Github OAuth app depending on which application you are running ( web or mobile ) and then restart your server.
 
